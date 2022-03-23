@@ -91,12 +91,12 @@ header nav a:hover {
 }
 
 .MuiCardActions-root {
-  padding: 0 20px 20px 20px !important;
+  padding: 0px 20px 20px 20px !important;
 }
 
 .my-masonry-grid {
-  display: -webkit-box; /* Not needed if autoprefixer */
-  display: -ms-flexbox; /* Not needed if autoprefixer */
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
   margin-left: -30px; /* gutter size offset */
   width: auto;
