@@ -2,8 +2,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // @ts-ignore
 import Slider from "react-slick";
+import {Carrousel} from "../../utils/JsonModel";
 
-const CarrouselComp = (props: { data: any }) => {
+const CarrouselComp = (props: { data: Array<Carrousel> | undefined}) => {
     const settings = {
         dots: false,
         infinite: true,
@@ -15,7 +16,7 @@ const CarrouselComp = (props: { data: any }) => {
     return (
         <div>
             <Slider {...settings}>
-                {props.data.map((slide: any) => (
+                {props.data?.map((slide: any) => (
                     <div key={slide.id}>
                         <div
                             className="carrousel_wrapper"

@@ -1,8 +1,8 @@
 import "reflect-metadata";
 
-export default class JsonModel {
-    public carrousel?: Carrousel[];
-    public articles?: Articles[];
+export default interface JsonModel {
+    carrousel?: Carrousel[];
+    articles?: Articles[];
 }
 
 export interface Carrousel {
