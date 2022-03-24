@@ -6,11 +6,11 @@ import {Carrousel} from "../../utils/JsonModel";
 
 const CarrouselComp = (props: { data: Array<Carrousel> | undefined}) => {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     };
 
     return (
