@@ -7,6 +7,7 @@ const BioPage = (props: { bioData: Array<string> }) => {
     return (
         <div className="row">
             <Head>
+                <title>Bio page</title>
                 <meta name="description" content="Biography of hokusai"/>
             </Head>
 
