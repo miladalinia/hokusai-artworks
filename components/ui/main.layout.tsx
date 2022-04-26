@@ -1,8 +1,8 @@
 import Head from "next/head"
-import {NextPage} from "next";
 import Header from "../navigation/header";
+import {ReactChild} from "react";
 
-const LayoutMain: NextPage = (props) => {
+const LayoutMain = (props: { children: ReactChild }) => {
     return (
         <>
             <Head>
