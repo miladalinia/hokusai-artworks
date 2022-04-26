@@ -5,10 +5,12 @@ import LayoutMain from "../components/ui/main.layout";
 
 function MyApp({Component, pageProps}: AppProps) {
     return (
-        <LayoutMain>
-            <Component {...pageProps}
-            />
-        </LayoutMain>
+        <>
+            <LayoutMain>
+                <Component {...pageProps}
+                />
+            </LayoutMain>
+        </>
     )
 }
 
