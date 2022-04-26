@@ -1,7 +1,6 @@
-import {NextPage} from "next";
 import Link from "next/link";
 
-const Header: NextPage = () => {
+const Header = () => {
     return (
         <>
             <header>
